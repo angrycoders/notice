@@ -1,0 +1,5 @@
+#composer vendor folder
+vendor/
+
+# intelli j files
+.idea/

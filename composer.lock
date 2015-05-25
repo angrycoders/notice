@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f10ebbeaa4f401b466f88ddfa54a511e",
+    "packages": [
+        {
+            "name": "angrycoders/db",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/angrycoders/jkuatapp-dbapi.git",
+                "reference": "b08a0febc3e2eca7d57d4035f506ea519fc634e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/angrycoders/jkuatapp-dbapi/zipball/b08a0febc3e2eca7d57d4035f506ea519fc634e5",
+                "reference": "b08a0febc3e2eca7d57d4035f506ea519fc634e5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AngryCoders\\Db\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Magani Felix",
+                    "email": "keysindicet@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "JKUAT App database interface",
+            "time": "2015-04-29 15:54:45"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "angrycoders/db": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
