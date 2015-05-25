@@ -3,3 +3,6 @@ vendor/
 
 # intelli j files
 .idea/
+
+# Project list file
+Projectlist-Notice.mgr
