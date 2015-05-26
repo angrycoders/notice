@@ -47,4 +47,9 @@ class NoticeBoard
     {
         $this->db->deleteRecord(self::TABLE_NAME, $noticeBoardID, "noticeBoardID");
     }
+
+    //Load all noticeboards
+    public function loadAll(){
+        $this->db->getRecord()
+    }
 } 

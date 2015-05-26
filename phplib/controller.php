@@ -25,6 +25,7 @@ if (isset($_POST)) {
             $res = delNoticeBoard();
             break;
         case 'del-notice':
+            $res = delNotice();
             break;
         default:
             $res['res'] = '0';
