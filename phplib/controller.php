@@ -25,7 +25,6 @@ if (isset($_POST)) {
             $res = delNoticeBoard();
             break;
         case 'del-notice':
-            $res = delNotice();
             break;
         default:
             $res['res'] = '0';
@@ -85,7 +84,7 @@ function delNotice()
     $noticeID = $_POST['noticeID'];
     $notice = new Notice();
 
-    $notice ->delete($noticeID);
+    $notice ->delete($notice);
 
     $res = array();
     $res['res'] = 1;

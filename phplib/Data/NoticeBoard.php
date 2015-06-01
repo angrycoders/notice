@@ -50,6 +50,5 @@ class NoticeBoard
 
     //Load all noticeboards
     public function loadAll(){
-        $this->db->getRecord()
     }
 } 
