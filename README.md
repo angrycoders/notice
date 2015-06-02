@@ -1,2 +1,0 @@
-# notice
-The Notice Module
